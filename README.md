@@ -14,3 +14,17 @@ For the backend installation
 For the frontend installation
 1. npm install
 2. npm run start
+
+
+
+
+#---- CREATE DATABASE AND TABLE -----#
+CREATE DATABASE api;
+
+CREATE TABLE users (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(200),
+  email VARCHAR(200)
+);
+
+# ----------------------------------- #
